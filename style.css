@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 1.3rem;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+	background-color: #302e2e;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: rgb(78, 78, 78);
+
+}
+.im{
+	width: 70px;
+	margin: 8px;
+	margin-bottom: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+.menu{
+	display: flex;
+	list-style: none;
+	margin-left: 2px;
+	margin: ;
+}
+.menu li{
+}
+.menu li a{
+	font-size: 1.2rem;
+	padding: 30px;
+	display: block;
+
+
+}
+.menu li:hover a{
+	background-color: rgb(255, 145, 0);
+}
+.corpo{
+	align-content: center;
+	display: flex;
+	margin: 70px;
+	margin-top: 100px;
+	width: 60%;
+	background-color: rgb(36, 36, 36);
+	padding: 10px;
+	padding-bottom: 100px;
+	
+}
+.corpo p{
+	text-align: justify;
+	color: white;
+}
+.ai{
+	width: 40%;
+}
+.tx{
+	padding-left: 20px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.aa{
+	padding-top: 100px;
+	position: bottom;
+}
+.di{
+	align-content: center;
+}
+
+@media (max-width: 1000px){
+	.menu{
+	}
+.menu li a{
+	padding-bottom: 60px;
+	padding-top: 60px;
+	font-size: 40px;
+	
+}
+.corpo{
+	display: flex;
+	margin: 70px;
+	margin-top: 100px;
+	width: 75%;
+	background-color: rgb(36, 36, 36);
+	padding: 10px;
+	padding-bottom: 100px;
+	
+}
+.corpo p{
+	text-align: justify;
+	color: white;
+}
+.ai{
+	width: 40%;
+}
+.tx{
+	padding-left: 20px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.aa{
+	padding-top: 100px;
+	position: bottom;
+}
+body{
+	align-content: center;
+}
+
+}
